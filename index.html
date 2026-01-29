@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ruang Vita</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600&family=Marhey&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)),
+        url('https://raw.githubusercontent.com/vitaciminme/ruangvita/main/IMG-20260124-WA0016.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #5a2149;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 420px;
+      background: rgba(255,255,255,0.9);
+      border-radius: 28px;
+      padding: 26px 22px 30px;
+      box-shadow: 0 14px 34px rgba(0,0,0,0.18);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .avatar {
+      width: 96px;
+      height: 96px;
+      margin: 0 auto 12px;
+      border-radius: 50%;
+      background: conic-gradient(from 180deg, #ff7eb3, #ff4fa3, #ff7eb3);
+      display: grid;
+      place-items: center;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    h1 {
+      margin: 6px 0 10px;
+      font-family: 'Marhey', cursive;
+      font-weight: 400;
+      font-size: 40px;
+      letter-spacing: 1px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .tagline {
+      font-size: 13px;
+      opacity: 0.9;
+      margin-bottom: 22px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .section-title {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      opacity: .7;
+      margin: 14px 0 6px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .links a {
+      display: grid;
+      grid-template-columns: 28px 1fr 18px;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      background: linear-gradient(135deg, #fff, #ffe8f2);
+      margin: 10px 0;
+      padding: 14px 16px;
+      border-radius: 18px;
+      font-weight: 600;
+      color: #5a2149;
+      border: 1px solid #ffd1e8;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+      transition: all .2s ease;
+      position: relative;
+      z-index: 1;
+    }
+
+    .links a:hover {
+      transform: translateY(-2px) scale(1.01);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+      background: linear-gradient(135deg, #ffe6f2, #ffd1e8);
+    }
+
+    .icon { font-size: 18px; }
+    .chev { opacity: .6; }
+
+    footer {
+      margin-top: 16px;
+      font-size: 11px;
+      opacity: 0.65;
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">
+      <img src="https://raw.githubusercontent.com/vitaciminme/ruangvita/main/ChatGPT%20Image%20Jan%2025%2C%202026%2C%2011_59_39%20AM.png" alt="Ruang Vita">
+    </div>
+
+    <h1>Ruang Vita</h1>
+    <div class="tagline">Ruang kecil untuk ide, cerita, dan semua karyaku 💖</div>
+
+    <div class="links">
+      <div class="section-title">✍️ KARYA</div>
+      <a href="https://halimunjingga.blogspot.com/"><span class="icon">🫀</span>Catatan Senja<span class="chev">›</span></a>
+      <a href="https://medium.com/@halimunjingga"><span class="icon">🧠</span>Coretan Senja<span class="chev">›</span></a>
+      <a href="https://www.wattpad.com/halimunjinggaa"><span class="icon">📖</span>Halimun Jingga — Book<span class="chev">›</span></a>
+
+      <div class="section-title">🎙️ PODCAST</div>
+      <a href="#"><span class="icon">🎙️</span>Surat Bersuara — Podcast<span class="chev">›</span></a>
+
+      <div class="section-title">🎧 SUARA & VIDEO</div>
+      <a href="https://www.youtube.com/@halimunjingga"><span class="icon">🎧</span>Halimun Jingga | Suara & Cerita<span class="chev">›</span></a>
+      <a href="https://www.youtube.com/@behindvitascenes"><span class="icon">🎬</span>Behind Vita Scenes — Vlog<span class="chev">›</span></a>
+
+      <div class="section-title">🌐 SOSIAL</div>
+      <a href="https://www.tiktok.com/@_halimunjingga"><span class="icon">🎵</span>Si Jingga<span class="chev">›</span></a>
+      <a href="https://pin.it/3Xlu5nE05"><span class="icon">📌</span>Moodboard Jingga<span class="chev">›</span></a>
+      <a href="https://www.instagram.com/_halimunjingga"><span class="icon">📷</span>Halimun Jingga — Cerita<span class="chev">›</span></a>
+
+      <div class="section-title">🛍️ SHOP</div>
+      <a href="https://www.instagram.com/svajonecraft"><span class="icon">🧵</span>Svajone Craft — Shop<span class="chev">›</span></a>
+    </div>
+
+    <footer>© 2026 Vita Room</footer>
+  </div>
+</body>
+  </html>
